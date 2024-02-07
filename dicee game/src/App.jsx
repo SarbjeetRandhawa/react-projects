@@ -14,6 +14,7 @@ function App() {
   return (
     <>
     {
+      
       isGameStarted ? <GamePlay/>:<Startgame 
       toggle={toogleGameplay}/>
       
